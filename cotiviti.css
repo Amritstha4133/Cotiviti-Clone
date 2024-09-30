@@ -1,0 +1,352 @@
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+header {
+  background-color: #31006f;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  position: fixed;
+  width: 100%;
+}
+.logo {
+  width: 220px;
+}
+.menu {
+  list-style: none;
+  padding: auto 30px;
+}
+.menu li {
+  display: inline-block;
+}
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 15px;
+  /* padding: 10px; */
+}
+nav {
+  float: right;
+}
+.container {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* _---------------------------------------------------------intro----------------------------------------------------------------------- */
+
+#intro {
+  background-color: #31006f;
+  background-image: url(./assets/banner-pattern.png);
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: 50% auto;
+  color: white;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+h1 {
+  color: white;
+  font-size: 30px;
+}
+
+#whitebox {
+  background: white;
+  width: 50%;
+  padding: 50px;
+  margin-top: 35px;
+  font-family: "Avenir-Light", Helvetica, sans-serif;
+}
+
+#whitebox small {
+  color: #7f7f7f;
+  font-size: 1rem;
+}
+
+#whitebox h2 {
+  color: #31006f;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  font-size: 45px;
+}
+#whitebox p {
+  color: #ec008c;
+  font-size: 1.12rem;
+}
+
+/* ------------------------------------------intro 2 ----------------------------------------------------------------------- */
+
+#intro2 {
+  background-image: url(./assets/building.png);
+  background-repeat: no-repeat;
+  background-position: center right;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#intro2 p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 17px;
+}
+
+/* ------------------------------------------ background attachment----------------------------------------------------------- */
+
+#bgattach {
+  background-image: url(./assets/parallax-home.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+}
+
+/* ------------------------------------------------intro 3---------------------------------------------------------------------- */
+#intro3 {
+  background-image: url(./assets/join.png);
+  background-size: 70% auto;
+  background-repeat: no-repeat;
+  background-position: center 110%;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  font-family: "Arial, Helvetica, sans-serif";
+}
+
+#intro3 h1 {
+  color: #31006f;
+  font-size: 50px;
+  padding-bottom: 30px;
+  font-family: " Arial, Helvetica, sans-serif";
+  font-weight: normal;
+}
+
+#intro3 p {
+  color: #7f7f7f;
+  margin-bottom: 30px;
+}
+
+#intro3 a {
+  color: #ec008c;
+  text-decoration: none;
+  font-size: 26px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  padding: 20px;
+  margin-left: 40px;
+  text-align: left;
+  display: block;
+}
+
+#intro3 .img2 {
+  padding: 20px;
+}
+#intro3 h2 {
+  padding: 30px;
+  color: #333333;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+#intro3 button {
+  background-color: white;
+  border: 2px solid #31006f;
+  color: #31006f;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 5px;
+}
+#intro3 button:hover {
+  color: #fff;
+  background-color: #ec008c;
+  border-color: #ec008c;
+}
+
+/* ---------------------------------------------------footer------------------------------------------------------------------------------ */
+
+#footer {
+  background-color: #eaeaea;
+  padding-bottom: 100px;
+}
+.foot {
+  display: flex;
+}
+#Navigate {
+  width: 75%;
+  padding-top: 40px;
+}
+#Navigate h2 {
+  color: #31006f;
+  font-weight: lighter;
+  font-family: "Arial, Helvetica, sans-serif";
+  padding-bottom: 15px;
+}
+
+#Navigate ul {
+  list-style: none;
+}
+#Navigate li a {
+  text-decoration: none;
+  color: #666;
+}
+.nav1,
+.nav2,
+.nav3 {
+  display: inline-block;
+  width: 25%;
+}
+
+.contactus {
+  width: 20%;
+  float: right;
+  padding-top: 40px;
+  padding: right 30px;
+}
+
+.contactus h2 {
+  color: #31006f;
+  font-weight: lighter;
+  font-family: "Arial, Helvetica, sans-serif";
+  padding-bottom: 15px;
+}
+.con1 {
+  color: #666;
+  font-size: 0.9em;
+}
+.foot2 {
+  color: #666;
+  font-size: 0.9em;
+  padding-top: 40px;
+}
+.foot3 {
+  float: right;
+  padding: bottom 20px;
+}
+
+/* -------------------------------------------------------------media query---------------------------- */
+/* -------------------------------------for mobile--------------------------------------------------------------------------- */
+@media screen and (max-width: 576px) {
+  .logo {
+    width: 40%;
+  }
+  #whitebox {
+    width: 100%;
+  }
+  #intro {
+    background-image: none;
+  }
+  #intro h1 {
+    font-size: 20px;
+  }
+  #whitebox h2 {
+    font-size: 25px;
+    font-weight: 500;
+  }
+
+  #whitebox p {
+    font-size: 10px;
+  }
+  #intro2 p {
+    width: 100%;
+    font-size: 15px;
+  }
+  #intro2 {
+    background-size: 30% auto;
+    background-position: bottom right;
+  }
+
+  #intro3 h1 {
+    font-size: 30px;
+  }
+  #intro3 h2 {
+    font-size: 20px;
+  }
+  #intro3 a {
+    font-size: 15px;
+  }
+  #intro3 p {
+    font-size: 10px;
+  }
+  #Navigate h2 {
+    font-size: 20px;
+  }
+  #footer p {
+    font-size: 10px;
+  }
+  .contactus h2 {
+    font-size: 20px;
+  }
+  .con1 h3 {
+    font-size: 0.7rem;
+  }
+  .contactus {
+    width: 30%;
+  }
+  .foot3 img {
+    width: 180px;
+  }
+}
+
+/* ----------------------------------------------tablet--------------------------------------------------------------- */
+
+@media screen and (min-width: 577px) and (max-width: 1199px) {
+  #whitebox {
+    width: 100%;
+  }
+  #intro {
+    background-image: none;
+  }
+  #intro h1 {
+    font-size: 20px;
+  }
+  #whitebox h2 {
+    font-size: 35px;
+    font-weight: 500;
+  }
+
+  #whitebox p {
+    font-size: 10px;
+  }
+  #intro2 p {
+    width: 100%;
+  }
+  #intro2 {
+    background-size: 20% auto;
+    background-position: bottom right;
+  }
+
+  #intro3 h1 {
+    font-size: 35px;
+  }
+  #intro3 a {
+    font-size: 20px;
+  }
+  #intro3 p {
+    font-size: 10px;
+  }
+  #Navigate h2 {
+    font-size: 20px;
+  }
+  #footer p {
+    font-size: 10px;
+  }
+  .contactus h2 {
+    font-size: 20px;
+  }
+  .con1 h3 {
+    font-size: 0.7rem;
+  }
+  .contactus {
+    width: 30%;
+  }
+  .foot3 img {
+    width: 200px;
+  }
+}
